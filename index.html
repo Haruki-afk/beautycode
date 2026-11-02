@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAUTY CODE</title>
+
+    <style>
+        /* This is the style for the whole page */
+        body {
+            background-color: #FFD9E8;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        /* This is the top part of the website */
+        header {
+            background-color: #FFB6CE;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #FF91AF;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* This keeps the content from being too wide */
+        main {
+            width: 85%;
+            margin: auto;
+        }
+
+        h2 {
+            color: #8f4058;
+            border-bottom: 2px solid #d98ca1;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: #8f4058;
+        }
+
+        section {
+            background-color: white;
+            margin-top: 25px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* These are the boxes for the makeup products */
+        .makeup-item {
+            border: 1px solid #e0aabb;
+            margin: 12px 0;
+            padding: 12px;
+            border-radius: 5px;
+        }
+
+        .makeup-item h3 {
+            margin-top: 0;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        .tip {
+            background-color: #ffe1eb;
+            border-left: 5px solid #8f4058;
+            padding: 12px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #8f4058;
+            color: white;
+            margin-top: 25px;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Website heading -->
+    <header>
+        <h1>BEAUTY CODE</h1>
+        <p>Learn The Different kinds of makeup and how to apply them</p>
+    </header>
+
+    <!-- Simple navigation links -->
+    <nav>
+        <a href="#makeup-types">Makeup Types</a>
+        <a href="#steps">Steps</a>
+        <a href="#tips">Tips</a>
+    </nav>
+
+    <main>
+        <!-- Section about makeup products -->
+        <section id="makeup-types">
+            <h2>Different Kinds of Makeup</h2>
+            <p>Here are some common makeup products and what they are used for.</p>
+
+            <div class="makeup-item">
+                <h3>Primer</h3>
+                <p>Primer helps make the skin smooth and helps makeup last longer.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Foundation</h3>
+                <p>Foundation helps make the skin tone look more even.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Concealer</h3>
+                <p>Concealer covers dark circles, pimples, and other small areas.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Powder</h3>
+                <p>Powder helps set the foundation and reduce extra oil or shine.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Blush</h3>
+                <p>Blush adds a pink or peach color to the cheeks.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Bronzer</h3>
+                <p>Bronzer adds warmth and a sun-kissed look to the face.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Contour</h3>
+                <p>Contour creates shadows to make some facial features look more defined.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Highlighter</h3>
+                <p>Highlighter adds shine to the high points of the face, such as the cheekbones.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Eyebrow Products</h3>
+                <p>Eyebrow pencils, powders, and gels help fill in and shape the eyebrows.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Eyeshadow</h3>
+                <p>Eyeshadow adds color to the eyelids and can make the eyes look more defined.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Eyeliner</h3>
+                <p>Eyeliner is used around the eyes to make the lash line look darker.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Mascara</h3>
+                <p>Mascara makes the eyelashes look darker, longer, or fuller.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Lip Liner</h3>
+                <p>Lip liner outlines the lips and helps lipstick look neater.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Lipstick or Lip Gloss</h3>
+                <p>These products add color, shine, or moisture to the lips.</p>
+            </div>
+
+            <div class="makeup-item">
+                <h3>Setting Spray</h3>
+                <p>Setting spray helps the makeup stay in place and makes the layers look more blended.</p>
+            </div>
+        </section>
+
+        <!-- Section about the order of applying makeup -->
+        <section id="steps">
+            <h2>Step-by-Step Makeup Routine</h2>
+            <p>Follow these steps to apply makeup in the correct order.</p>
+
+            <ol>
+                <li>
+                    <strong>Clean your face:</strong>
+                    Wash your face to remove dirt, oil, and old makeup.
+                </li>
+                <li>
+                    <strong>Apply moisturizer:</strong>
+                    Moisturizer helps keep the skin soft and hydrated.
+                </li>
+                <li>
+                    <strong>Apply sunscreen:</strong>
+                    During the daytime, use sunscreen to protect your skin from the sun.
+                </li>
+                <li>
+                    <strong>Apply primer:</strong>
+                    Use a small amount of primer to prepare your skin for makeup.
+                </li>
+                <li>
+                    <strong>Apply color corrector (optional):</strong>
+                    Use color corrector on areas with redness or dark spots if needed.
+                </li>
+                <li>
+                    <strong>Apply foundation:</strong>
+                    Blend a thin layer of foundation over your face.
+                </li>
+                <li>
+                    <strong>Apply concealer:</strong>
+                    Put concealer under the eyes or on blemishes that need more coverage.
+                </li>
+                <li>
+                    <strong>Apply cream contour and cream blush:</strong>
+                    Blend these products before applying powder products.
+                </li>
+                <li>
+                    <strong>Apply powder:</strong>
+                    Lightly apply powder to set the foundation and concealer.
+                </li>
+                <li>
+                    <strong>Apply bronzer, blush, and highlighter:</strong>
+                    Add warmth, color, and glow to the face.
+                </li>
+                <li>
+                    <strong>Do your eyebrows:</strong>
+                    Fill in the eyebrows and brush them into place.
+                </li>
+                <li>
+                    <strong>Apply eyeshadow:</strong>
+                    Apply your chosen eyeshadow colors to your eyelids.
+                </li>
+                <li>
+                    <strong>Apply eyeliner:</strong>
+                    Add eyeliner to the lash line if you want more eye definition.
+                </li>
+                <li>
+                    <strong>Apply mascara:</strong>
+                    Brush mascara from the roots to the tips of your eyelashes.
+                </li>
+                <li>
+                    <strong>Apply lip products:</strong>
+                    Use lip liner, lipstick, lip gloss, or lip balm.
+                </li>
+                <li>
+                    <strong>Apply setting spray:</strong>
+                    Spray it evenly over your face to help your makeup last longer.
+                </li>
+            </ol>
+        </section>
+
+        <!-- Helpful reminders -->
+        <section id="tips">
+            <h2>BEGINNER TIPS</h2>
+            <div class="tip">
+                <p><strong>Tip 1:</strong> Use small amounts of product first. You can always add more.</p>
+                <p><strong>Tip 2:</strong> Blend your makeup well so there are no harsh lines.</p>
+                <p><strong>Tip 3:</strong> Apply cream products before powder products.</p>
+                <p><strong>Tip 4:</strong> Clean your makeup brushes regularly.</p>
+                <p><strong>Tip 5:</strong> Always remove your makeup before going to sleep.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>BEAUTY CODE - Beginner Makeup Guide</p>
+    </footer>
+
+</body>
+</html>
